@@ -1,0 +1,19 @@
+<launch>
+ <arg name="pi/2" value="1.5707963267948966" />
+
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find ballast_sim)/worlds/ballast_with_walls.world"/>
+    <!-- more default parameters can be changed here -->
+  </include>
+
+ <arg name="TURTLEBOT3_MODEL" value="burger_custom" />
+ <arg name="model" default="burger_custom" doc="model type [burger, waffle, waffle_pi]"/>
+  <arg name="x_pos" default="0.18"/>
+  <arg name="y_pos" default="-0.9"/>
+  <arg name="z_pos" default="0.046319"/>
+
+  <param name="robot_description" command="$(find xacro)/xacro --inorder $(find ballast_sim)/urdf/turtlebot3_$(arg model).urdf.xacro" />
+
+  <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model turtlebot3_$(arg model) -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -Y 0 -param robot_description" />
+</launch>
