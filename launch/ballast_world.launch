@@ -14,6 +14,10 @@
   <arg name="z_pos" default="0.046319"/>
 
   <param name="robot_description" command="$(find xacro)/xacro --inorder $(find ballast_sim)/urdf/turtlebot3_$(arg model).urdf.xacro" />
-
+ <node
+    name="robot_state_publisher"
+    pkg="robot_state_publisher"
+    type="robot_state_publisher" />
+    
   <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model turtlebot3_$(arg model) -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -Y 0 -param robot_description" />
 </launch>

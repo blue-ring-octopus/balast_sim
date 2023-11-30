@@ -52,9 +52,9 @@
     <plugin name="turtlebot3_burger_controller" filename="libgazebo_ros_diff_drive.so">
       <commandTopic>cmd_vel</commandTopic>
       <odometryTopic>odom</odometryTopic>
-      <odometryFrame>odom</odometryFrame>
+      <odometryFrame>odom</odometryFrame> 
       <odometrySource>world</odometrySource>
-      <publishOdomTF>true</publishOdomTF>
+      <publishOdomTF>false</publishOdomTF>
       <robotBaseFrame>base_footprint</robotBaseFrame>
       <publishWheelTF>false</publishWheelTF>
       <publishTf>true</publishTf>
@@ -141,8 +141,8 @@
       <camera>
           <horizontal_fov>1.211259</horizontal_fov>
           <image>
-               <width>1920</width>
-              <height>1080</height>
+               <width>1208</width>
+              <height>720</height>
               <format>R8G8B8</format>
           </image>
           <clip>
