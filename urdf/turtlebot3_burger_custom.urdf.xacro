@@ -36,10 +36,10 @@
     </inertial>
   </link>
 
-  <joint name="wheel_left_joint" type="continuous">
+    <joint name="wheel_left_joint" type="continuous">
     <parent link="base_link"/>
     <child link="wheel_left_link"/>
-    <origin xyz="0.0 0.08 -0.013" rpy="-1.57 0 0"/>
+    <origin xyz="0.0 0.08 0.023" rpy="-1.57 0 0"/>
     <axis xyz="0 0 1"/>
   </joint>
 
@@ -71,7 +71,7 @@
   <joint name="wheel_right_joint" type="continuous">
     <parent link="base_link"/>
     <child link="wheel_right_link"/>
-    <origin xyz="0.0 -0.080 -0.013" rpy="-1.57 0 0"/>
+    <origin xyz="0.0 -0.080 0.023" rpy="-1.57 0 0"/>
     <axis xyz="0 0 1"/>
   </joint>
 
@@ -99,7 +99,7 @@
                izz="2.0712558e-05" />
       </inertial>
   </link>
-  
+
   <joint name="caster_back_joint" type="fixed">
     <parent link="base_link"/>
     <child link="caster_back_link"/>
@@ -108,17 +108,12 @@
 
   <link name="caster_back_link">
     <collision>
-      <origin xyz="0 0.018 0" rpy="0 0 0"/>
+      <origin xyz="0 0.001 0" rpy="0 0 0"/>
       <geometry>
-        <box size="0.030 0.044 0.020"/>
+        <box size="0.030 0.009 0.020"/>
       </geometry>
     </collision>
-    <visual>
-         <origin xyz="0 0.018 0" rpy="0 0 0"/>
-      <geometry>
-        <box size="0.030 0.044 0.020"/>
-      </geometry>
-    </visual>
+
     <inertial>
       <origin xyz="0 0 0" />
       <mass value="0.005" />
@@ -127,7 +122,6 @@
                izz="0.001" />
     </inertial>
   </link>
-
   <joint name="imu_joint" type="fixed">
     <parent link="base_link"/>
     <child link="imu_link"/>
