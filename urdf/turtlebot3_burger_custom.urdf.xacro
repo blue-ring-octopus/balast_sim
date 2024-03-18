@@ -57,6 +57,12 @@
       <geometry>
         <cylinder length="0.018" radius="0.033"/>
       </geometry>
+      <contact>
+      <ode>
+      	<kp> 1e15 </kp>
+      	<kd> 1e15 </kd>
+      </ode>
+    </contact>
     </collision>
 
     <inertial>
@@ -89,6 +95,12 @@
       <geometry>
         <cylinder length="0.018" radius="0.033"/>
       </geometry>
+          <contact>
+      <ode>
+      	<kp> 1e15 </kp>
+      	<kd> 1e15 </kd>
+      </ode>
+    </contact>
     </collision>
 
     <inertial>
