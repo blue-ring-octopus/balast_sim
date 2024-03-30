@@ -124,6 +124,12 @@
       <geometry>
         <box size="0.030 0.009 0.020"/>
       </geometry>
+     <contact>
+      <ode>
+      	<kp> 1e15 </kp>
+      	<kd> 1e15 </kd>
+      </ode>
+    </contact>
     </collision>
 
     <inertial>
