@@ -452,7 +452,7 @@
 
             <pose frame='tank'>-3.4820 3.18185 0.227 1.57 0 -3.1415</pose>
     </model> 
-    
+    -->
     <model name='tag12'>
       <static>1</static>
       <link name='link'>

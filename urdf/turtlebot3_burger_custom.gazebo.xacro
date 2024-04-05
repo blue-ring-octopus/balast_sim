@@ -189,8 +189,8 @@
       <linear>0.01</linear>
     </attenuation>
     <spot>
-        <inner_angle>0.5</inner_angle>
-        <outer_angle>1.0</outer_angle>
+        <inner_angle>1</inner_angle>
+        <outer_angle>1.5</outer_angle>
         <falloff>0.8</falloff>
     </spot>
     <direction>1 0 0</direction>
