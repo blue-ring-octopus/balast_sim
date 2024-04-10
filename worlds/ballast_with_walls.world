@@ -801,7 +801,7 @@
     
     
 <!-- ________________girl________________-->
-<!--
+
 <model name='girl'>
       <static>1</static>
       <link name='link'>
@@ -834,7 +834,7 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>1.608850 -0.586244 0.027 0 0 -1.448655</pose>
-    </model>  -->
+    </model>  
 <!--___________________________________________________-->
     <gui fullscreen='0'>
       <camera name='user_camera'>
