@@ -129,7 +129,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag00.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -157,7 +157,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag01.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -185,7 +185,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag02.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -213,14 +213,14 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag03.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
       </link>
-      <pose frame='tank'>-0.3587 1.333 0.146 0 0 3.1415</pose>
+      <pose frame='tank'>-0.38 1.333 0.146 0 0 3.1415</pose>
     </model> 
     
     
@@ -242,7 +242,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag04.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -270,7 +270,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag05.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -298,7 +298,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag06.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -326,7 +326,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag07.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -355,7 +355,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag08.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -384,7 +384,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag09.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -413,7 +413,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag10.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -442,7 +442,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag11.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -471,7 +471,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag12.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -500,7 +500,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag13.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -529,7 +529,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag14.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -557,7 +557,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag15.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -586,7 +586,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag16.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -615,7 +615,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag17.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0. </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -644,7 +644,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag18.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -673,7 +673,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag19.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -701,7 +701,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag20.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -730,7 +730,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag21.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -759,7 +759,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag22.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
@@ -788,7 +788,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag23.dae</uri>
-	      <scale> 0.15 0.15 0.15 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
