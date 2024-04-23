@@ -5,22 +5,22 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.83.1 commit date:2020-06-25, commit time:09:47, hash:8289fc688b3e</authoring_tool>
     </contributor>
-    <created>2024-04-22T19:45:45</created>
-    <modified>2024-04-22T19:45:45</modified>
+    <created>2024-04-22T19:53:28</created>
+    <modified>2024-04-22T19:53:28</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_effects>
     <effect id="Material_001-effect">
       <profile_COMMON>
-        <newparam sid="tag11_png-surface">
+        <newparam sid="tag29_png-surface">
           <surface type="2D">
-            <init_from>tag11_png</init_from>
+            <init_from>tag29_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="tag11_png-sampler">
+        <newparam sid="tag29_png-sampler">
           <sampler2D>
-            <source>tag11_png-surface</source>
+            <source>tag29_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -29,7 +29,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="tag11_png-sampler" texcoord="Cube-mesh-map-0"/>
+              <texture texture="tag29_png-sampler" texcoord="Cube-mesh-map-0"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>
@@ -40,8 +40,8 @@
     </effect>
   </library_effects>
   <library_images>
-    <image id="tag11_png" name="tag11_png">
-      <init_from>tag11.png</init_from>
+    <image id="tag29_png" name="tag29_png">
+      <init_from>tag29.png</init_from>
     </image>
   </library_images>
   <library_materials>

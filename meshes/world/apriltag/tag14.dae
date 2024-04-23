@@ -5,22 +5,22 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.83.1 commit date:2020-06-25, commit time:09:47, hash:8289fc688b3e</authoring_tool>
     </contributor>
-    <created>2023-11-29T20:27:23</created>
-    <modified>2023-11-29T20:27:23</modified>
+    <created>2024-04-22T19:46:54</created>
+    <modified>2024-04-22T19:46:54</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_effects>
-    <effect id="Material_002-effect">
+    <effect id="Material_001-effect">
       <profile_COMMON>
-        <newparam sid="_4_png-surface">
+        <newparam sid="tag14_png-surface">
           <surface type="2D">
-            <init_from>_4_png</init_from>
+            <init_from>tag14_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="_4_png-sampler">
+        <newparam sid="tag14_png-sampler">
           <sampler2D>
-            <source>_4_png-surface</source>
+            <source>tag14_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -29,7 +29,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="_4_png-sampler" texcoord="Cube-mesh-map-0"/>
+              <texture texture="tag14_png-sampler" texcoord="Cube-mesh-map-0"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>
@@ -40,13 +40,13 @@
     </effect>
   </library_effects>
   <library_images>
-    <image id="_4_png" name="_4_png">
-      <init_from>14.png</init_from>
+    <image id="tag14_png" name="tag14_png">
+      <init_from>tag14.png</init_from>
     </image>
   </library_images>
   <library_materials>
-    <material id="Material_002-material" name="Material.002">
-      <instance_effect url="#Material_002-effect"/>
+    <material id="Material_001-material" name="Material.001">
+      <instance_effect url="#Material_001-effect"/>
     </material>
   </library_materials>
   <library_geometries>
@@ -84,7 +84,7 @@
         <vertices id="Cube_001-mesh-vertices">
           <input semantic="POSITION" source="#Cube_001-mesh-positions"/>
         </vertices>
-        <triangles material="Material_002-material" count="12">
+        <triangles material="Material_001-material" count="12">
           <input semantic="VERTEX" source="#Cube_001-mesh-vertices" offset="0"/>
           <input semantic="NORMAL" source="#Cube_001-mesh-normals" offset="1"/>
           <input semantic="TEXCOORD" source="#Cube_001-mesh-map-0" offset="2" set="0"/>
@@ -96,11 +96,11 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="Cube" name="Cube" type="NODE">
-        <matrix sid="transform">3.77489e-9 7.54979e-8 -0.5 0 0 -0.5 -7.54979e-8 0 -0.05 5.69993e-15 -3.7749e-8 0 0 0 0 1</matrix>
+        <matrix sid="transform">0.01 0 0 0 0 -2.18557e-8 -0.5 0 0 0.5 -2.18557e-8 0 0 0 0 1</matrix>
         <instance_geometry url="#Cube_001-mesh" name="Cube">
           <bind_material>
             <technique_common>
-              <instance_material symbol="Material_002-material" target="#Material_002-material">
+              <instance_material symbol="Material_001-material" target="#Material_001-material">
                 <bind_vertex_input semantic="Cube-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
               </instance_material>
             </technique_common>
