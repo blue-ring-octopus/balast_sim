@@ -136,7 +136,7 @@
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
       </link>
-      <pose frame='tank'>4.054 -0.344 0.1278 0 0 3.1415 </pose>
+      <pose frame='tank'>4.054 -0.288 0.1278 0 0 3.1415 </pose>
     </model> 
 
 <model name='tag1'>
@@ -164,7 +164,7 @@
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
       </link>
-      <pose frame='tank'>5.051 -1.3464 0.1995 0 0 3.1415</pose>
+      <pose frame='tank'>5.051 -1.3464 0.26 0 0 3.1415</pose>
     </model> 
 
 <model name='tag2'>
@@ -508,7 +508,7 @@
         <kinematic>0</kinematic>
       </link>
 
-            <pose frame='tank'>5.05 -0.422 0.227 0 0 3.1415</pose>
+            <pose frame='tank'>5.05 -0.422 0.25 0 0 3.1415</pose>
     </model> 
     
     <model name='tag14'>
@@ -594,7 +594,7 @@
         <kinematic>0</kinematic>
       </link>
 
-            <pose frame='tank'>4.045 -1.817 0.125 0 0 3.1415</pose>
+            <pose frame='tank'>4.045 -1.772 0.125 0 0 3.1415</pose>
     </model> 
     
     <model name='tag17'>
