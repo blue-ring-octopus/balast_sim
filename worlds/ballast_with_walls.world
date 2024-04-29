@@ -816,7 +816,7 @@
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>1.8526 -5.1512 -0.1 1.57  0 0</pose>
+      <pose frame=''>2.214 -5.088 -0.1 1.57  0 -1.57</pose>
     </model>  
 <!-- ________________girl________________-->
 <model name='girl'>

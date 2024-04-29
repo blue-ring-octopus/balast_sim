@@ -180,7 +180,7 @@
 <!-- _________________________________ FLASH LIGHT _______________________________ -->
 <gazebo reference="camera_link">  
   <light type="spot" name="front_spot">
-    <cast_shadows>1</cast_shadows>
+    <cast_shadows>0</cast_shadows>
     <pose>0 0 0 0 0 0</pose>
     <diffuse>0.02 0.02 0.02 1</diffuse>
     <attenuation>
