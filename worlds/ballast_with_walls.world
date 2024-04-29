@@ -802,7 +802,24 @@
     
   
 <!--________________________FODS_______________________-->
-<model name='drill'>
+<model name='drill1'>
+	<static>1</static>
+	<link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://tools/drill.dae</uri>
+	      <scale> 1 1 1 </scale> 
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>4.35 -4.39 -0.1 1.57  0 -1.57</pose>
+    </model>  
+    
+    <model name='drill2'>
 	<static>1</static>
 	<link name='link'>
         <visual name='visual'>
@@ -817,7 +834,40 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>2.214 -5.088 -0.1 1.57  0 -1.57</pose>
-    </model>  
+    </model> 
+    
+   <model name='drill3'>
+	<static>1</static>
+	<link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://tools/drill.dae</uri>
+	      <scale> 1 1 1 </scale> 
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>2.83 -4.01 -0.1 1.57  0 -1.57</pose>
+    </model> 
+    <model name='drill4'>
+	<static>1</static>
+	<link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://tools/drill.dae</uri>
+	      <scale> 1 1 1 </scale> 
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>0.58 -2.49 -0.1 1.57  0 -1.57</pose>
+    </model> 
 <!-- ________________girl________________-->
 <model name='girl'>
       <static>1</static>
