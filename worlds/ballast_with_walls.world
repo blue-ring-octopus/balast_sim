@@ -363,7 +363,7 @@
         <kinematic>0</kinematic>
       </link>
 
-            <pose frame='tank'>2.752 -5.33111 0.177 0 0 1.5708</pose>
+            <pose frame='tank'>2.752 -5.31 0.177 0 0 1.5708</pose>
     </model> 
     
 <model name='tag9'>
@@ -767,7 +767,7 @@
         <kinematic>0</kinematic>
       </link>
 
-            <pose frame='tank'>5.05 -5.037 0.227 0 0 3.1415</pose>
+            <pose frame='tank'>5.20 -3.96 0.227 0 0 3.1415</pose>
     </model> 
     
     <model name='tag23'>
