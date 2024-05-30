@@ -868,6 +868,24 @@
       </link>
       <pose frame=''>0.58 -2.49 -0.1 1.57  0 -1.57</pose>
     </model> 
+    
+<model name='hammer'>
+	<static>1</static>
+	<link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://tools/hammer.dae</uri>
+	      <scale> 1 1 1 </scale> 
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>1.608850 -0.586244 0.027 0 0 -1.448655</pose>
+    </model>  
+    
 <!-- ________________girl________________-->
 <model name='girl'>
       <static>1</static>
