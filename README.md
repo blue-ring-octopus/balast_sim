@@ -31,6 +31,9 @@ cd ~/catkin_ws && catkin_make
  ```
  git clone https://github.com/blue-ringed-octopus/ballast_sim.git 
  ``` 
+ ```
+ cd ~/catkin_ws && catkin_make
+ ```
 2. navigate to home/.gazebo
 3. create a folder called models if it does not already exist.
 4. Go to ballast_sim/meshes/world, copy everything into the .gazebo/models folder
