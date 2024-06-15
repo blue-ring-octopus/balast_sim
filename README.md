@@ -1,5 +1,5 @@
 # gazebo similation of ballast tank 
-1. Depandencies
+## Depandencies
 Install all turtlebot packages
 ```
 sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \
@@ -26,14 +26,15 @@ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.
 cd ~/catkin_ws && catkin_make
 ```
 
-2. Go to your catkin_ws/src
+## Configure Simulation
+1. Go to your catkin_ws/src
  ```
  git clone https://github.com/blue-ringed-octopus/ballast_sim.git 
  ``` 
-3. navigate to home/.gazebo
-4. create a folder called models if it does not already exist.
-5. Go to ballast_sim/meshes/world, copy everything into the .gazebo/models folder
-6. launch the simulation
+2. navigate to home/.gazebo
+3. create a folder called models if it does not already exist.
+4. Go to ballast_sim/meshes/world, copy everything into the .gazebo/models folder
+5. launch the simulation
 ``` 
 roslaunch ballast_sim ballast_world.launch 
 ```
