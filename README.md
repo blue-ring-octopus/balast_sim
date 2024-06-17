@@ -41,3 +41,7 @@ cd ~/catkin_ws && catkin_make
 ``` 
 roslaunch ballast_sim ballast_world.launch 
 ```
+6. launch teleop to drive the turtlebot
+```
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
