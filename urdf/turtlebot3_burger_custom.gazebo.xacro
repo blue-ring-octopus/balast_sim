@@ -155,12 +155,12 @@
             <alwaysOn>true</alwaysOn>
             <updateRate>0.0</updateRate>
             <cameraName>camera_ir</cameraName>
-            <imageTopicName>/camera/rgb/image_rect_color</imageTopicName>
-            <cameraInfoTopicName>/camera/rgb/camera_info</cameraInfoTopicName>
-            <depthImageTopicName>/camera/depth_registered/image_raw</depthImageTopicName>
-            <depthImageCameraInfoTopicName>/camera/depth_registered/camera_info</depthImageCameraInfoTopicName>
+            <imageTopicName>/camera/color/image_raw</imageTopicName>
+            <cameraInfoTopicName>/camera/color/camera_info</cameraInfoTopicName>
+            <depthImageTopicName>/camera/aligned_depth_to_color/image_raw</depthImageTopicName>
+            <depthImageCameraInfoTopicName>/camera/aligned_depth_to_color/camera_info</depthImageCameraInfoTopicName>
             <pointCloudTopicName>/camera/depth_points</pointCloudTopicName>
-            <frameName>camera_rgb_optical_frame</frameName>
+            <frameName>camera_color_optical_frame</frameName>
             <pointCloudCutoff>0.0</pointCloudCutoff>
             <pointCloudCutoffMax>3.0</pointCloudCutoffMax>
             <distortionK1>0</distortionK1>
