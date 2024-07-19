@@ -876,7 +876,7 @@
           <geometry>
             <mesh>
               <uri>model://tools/hammer.dae</uri>
-	      <scale> 1 1 1 </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
