@@ -9,7 +9,7 @@
 
  <arg name="TURTLEBOT3_MODEL" value="burger_custom" />
  <arg name="model" default="burger_custom" doc="model type [burger, waffle, waffle_pi]"/>
-  <arg name="x_pos" default="0.18"/>
+  <arg name="x_pos" default="0.7"/>
   <arg name="y_pos" default="-0.9"/>
   <arg name="z_pos" default="0.046319"/>
 
