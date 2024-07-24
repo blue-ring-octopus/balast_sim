@@ -222,12 +222,12 @@
         <box size="0.015 0.030 0.027"/>
       </geometry>
     </collision>
-       <visual>
+     <!--  <visual>
       <origin xyz="0 0 0.0" rpy="0 0 0"/>
       <geometry>
         <box size="0.015 0.030 0.027"/>
       </geometry>
       <material name="light_black"/>
-    </visual>
+    </visual> -->
   </link>
 </robot>
