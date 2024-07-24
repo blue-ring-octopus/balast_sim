@@ -48,6 +48,12 @@
     <material>Gazebo/FlatBlack</material>
   </gazebo>
 
+ <gazebo reference="camera_link">
+    <material>
+      <mesh filename="package://ballast_sim/meshes/sensors/D435i.stl" scale="0.001 0.001 0.001"/>
+    </material>
+  </gazebo>
+
   <gazebo>
     <plugin name="turtlebot3_burger_controller" filename="libgazebo_ros_diff_drive.so">
       <commandTopic>cmd_vel</commandTopic>
