@@ -13,7 +13,7 @@
   <arg name="y_pos" default="-0.9"/>
   <arg name="z_pos" default="0.046319"/>
 
-  <param name="robot_description" command="$(find xacro)/xacro --inorder $(find ballast_sim)/urdf/turtlebot3_$(arg model).urdf.xacro" />
+  <param name="robot_description" command="$(find xacro)/xacro --inorder $(find ballast_sim)/urdf/turtlebot3_burger_custom.urdf.xacro" />
  <node
     name="robot_state_publisher"
     pkg="robot_state_publisher"
