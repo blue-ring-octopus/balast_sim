@@ -49,11 +49,7 @@
   </gazebo>
 
  <gazebo reference="camera_link">
-    <visual>
-	<geometry>
-          <mesh filename="package://ballast_sim/meshes/sensors/D435i.stl" scale="0.001 0.001 0.001"/>
-    	</geometry>
-</visual>
+ 
   </gazebo>
 
   <gazebo>
