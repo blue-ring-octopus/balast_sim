@@ -190,7 +190,7 @@
     <collision>
       <origin xyz="0.005 0.0 0.013" rpy="0 0 0"/>
       <geometry>
-                <mesh filename="package://ballast_sim/meshes/sensors/D435i.stl" scale="0.001 0.001 0.001"/>
+         <mesh filename="package://ballast_sim/meshes/sensors/D435i.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
