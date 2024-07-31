@@ -249,7 +249,7 @@
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
       </link>
-      <pose frame='tank'>0.35 -4.063 0.227 0.004 0 0</pose>
+      <pose frame='tank'>0.35 -4.063 0.227 0.2744 0 0</pose>
     </model> 
     
 <model name='tag5'>
