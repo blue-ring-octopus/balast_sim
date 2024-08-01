@@ -306,7 +306,7 @@
         <kinematic>0</kinematic>
       </link>
 
-        <pose frame='tank'>0 0 0 0 0 0</pose>
+        <pose frame='tank'>3.021 -5.781 0.227 0 0 3.1415</pose>
     </model>     
     <model name='tag7'>
       <static>1</static>
