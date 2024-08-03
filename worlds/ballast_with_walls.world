@@ -615,7 +615,7 @@
           <geometry>
             <mesh>
               <uri>model://apriltag/tag17.dae</uri>
-	      <scale> 0.2 0.2 0. </scale> 
+	      <scale> 0.2 0.2 0.2 </scale> 
             </mesh>
           </geometry>
         </visual>
