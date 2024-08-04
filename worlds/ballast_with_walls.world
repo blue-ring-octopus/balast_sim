@@ -665,7 +665,7 @@
 			<ixy>1</ixy>
 			<ixz>1</ixz>
 			<iyy>1</iyy>
-			<iyz>1</iyz>
+			<iyz>1</iyz>0.574 -3.174 0.227 0 0 0
 			<izz>1</izz>
 		</inertia>
 	</inertial>
@@ -799,8 +799,237 @@
             <pose frame='tank'>0.360 -0.4097 0.166 0 0 0</pose>
     </model> 
     
-    
+    <model name='tag24'>
+      <static>1</static>
+      <link name='link'>
+	<inertial>
+		<mass>10</mass>
+		<inertia>
+			<ixx>1</ixx>
+			<ixy>1</ixy>
+			<ixz>1</ixz>
+			<iyy>1</iyy>
+			<iyz>1</iyz>
+			<izz>1</izz>
+		</inertia>
+	</inertial>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://apriltag/tag24.dae</uri>
+	      <scale> 0.2 0.2 0.2 </scale> 
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+
+            <pose frame='tank'>2.349 -3.88 0.166 0 0 3.1415</pose>
+    </model> 
   
+  <model name='tag25'>
+      <static>1</static>
+      <link name='link'>
+	<inertial>
+		<mass>10</mass>
+		<inertia>
+			<ixx>1</ixx>
+			<ixy>1</ixy>
+			<ixz>1</ixz>
+			<iyy>1</iyy>
+			<iyz>1</iyz>
+			<izz>1</izz>
+		</inertia>
+	</inertial>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://apriltag/tag25.dae</uri>
+	      <scale> 0.2 0.2 0.2 </scale> 
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+
+            <pose frame='tank'>2.39 -4.156 0.227 0 0 0</pose>
+    </model> 
+    
+    <model name='tag26'>
+      <static>1</static>
+      <link name='link'>
+	<inertial>
+		<mass>10</mass>
+		<inertia>
+			<ixx>1</ixx>
+			<ixy>1</ixy>
+			<ixz>1</ixz>
+			<iyy>1</iyy>
+			<iyz>1</iyz>
+			<izz>1</izz>
+		</inertia>
+	</inertial>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://apriltag/tag26.dae</uri>
+	      <scale> 0.2 0.2 0.2 </scale> 
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+
+            <pose frame='tank'>3 -0.106541 0.1188 0 0 -1.57</pose>
+    </model> 
+    
+    <model name='tag27'>
+      <static>1</static>
+      <link name='link'>
+	<inertial>
+		<mass>10</mass>
+		<inertia>
+			<ixx>1</ixx>
+			<ixy>1</ixy>
+			<ixz>1</ixz>
+			<iyy>1</iyy>
+			<iyz>1</iyz>
+			<izz>1</izz>
+		</inertia>
+	</inertial>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://apriltag/tag27.dae</uri>
+	      <scale> 0.2 0.2 0.2 </scale> 
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+
+            <pose frame='tank'>2.848 -3.156 0.227 0 0 1.57</pose>
+    </model> 
+    
+    <model name='tag28'>
+      <static>1</static>
+      <link name='link'>
+	<inertial>
+		<mass>10</mass>
+		<inertia>
+			<ixx>1</ixx>
+			<ixy>1</ixy>
+			<ixz>1</ixz>
+			<iyy>1</iyy>
+			<iyz>1</iyz>
+			<izz>1</izz>
+		</inertia>
+	</inertial>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://apriltag/tag28.dae</uri>
+	      <scale> 0.2 0.2 0.2 </scale> 
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+
+            <pose frame='tank'>3.9 -5.31 0.177 0 0 1.5708</pose>
+    </model> 
+    
+    <model name='tag29'>
+      <static>1</static>
+      <link name='link'>
+	<inertial>
+		<mass>10</mass>
+		<inertia>
+			<ixx>1</ixx>
+			<ixy>1</ixy>
+			<ixz>1</ixz>
+			<iyy>1</iyy>
+			<iyz>1</iyz>
+			<izz>1</izz>
+		</inertia>
+	</inertial>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://apriltag/tag29.dae</uri>
+	      <scale> 0.2 0.2 0.2 </scale> 
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+
+            <pose frame='tank'>0.92 -5 0.227 0 0 0</pose>
+    </model> 
+    
+    <model name='tag30'>
+      <static>1</static>
+      <link name='link'>
+	<inertial>
+		<mass>10</mass>
+		<inertia>
+			<ixx>1</ixx>
+			<ixy>1</ixy>
+			<ixz>1</ixz>
+			<iyy>1</iyy>
+			<iyz>1</iyz>
+			<izz>1</izz>
+		</inertia>
+	</inertial>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://apriltag/tag30.dae</uri>
+	      <scale> 0.2 0.2 0.2 </scale> 
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+
+            <pose frame='tank'>2.31 -6.189 0.227 0 0 1.5708</pose>
+    </model> 
+    
+    <model name='tag31'>
+      <static>1</static>
+      <link name='link'>
+	<inertial>
+		<mass>10</mass>
+		<inertia>
+			<ixx>1</ixx>
+			<ixy>1</ixy>
+			<ixz>1</ixz>
+			<iyy>1</iyy>
+			<iyz>1</iyz>
+			<izz>1</izz>
+		</inertia>
+	</inertial>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://apriltag/tag31.dae</uri>
+	      <scale> 0.2 0.2 0.2 </scale> 
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+
+            <pose frame='tank'>2.31 -5.35 0.227 0 0 -1.5708</pose>
+    </model> 
 <!--________________________FODS_______________________-->
 <model name='drill1'>
 	<static>1</static>
