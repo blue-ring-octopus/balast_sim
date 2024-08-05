@@ -181,14 +181,14 @@
   -->
  <joint name="camera_joint" type="fixed">
 <!--	<origin xyz="0.073 -0.011 0.084" rpy="0 0.349 0"/> -->
-<origin xyz="0.01 -0.011 0.16" rpy="0 0 0"/>
+<origin xyz="0.01 0.032 0.16" rpy="0 0 0"/>
     <parent link="base_link"/>
     <child link="camera_link"/>
   </joint>
 
   <link name="camera_link">
     <visual>
-      <origin xyz="0.005 0.0 0.013" rpy="0 0 0"/>
+      <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
       <geometry>
          <mesh filename="package://ballast_sim/meshes/sensors/D435i.stl" scale="1 1 1"/>
       </geometry>
@@ -197,7 +197,7 @@
   </link>
   
   <joint name="camera_color_joint" type="fixed">
-    <origin xyz="0.003 0.011 0.009" rpy="0 0 0"/>
+    <origin xyz="0.0 -0.032 0.0" rpy="0 0 0"/>
     <parent link="camera_link"/>
     <child link="camera_color_frame"/>
   </joint>
