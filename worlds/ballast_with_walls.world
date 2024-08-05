@@ -1112,7 +1112,7 @@
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>1.608850 -0.5 0.027 0 0 -1.448655</pose>
+      <pose frame=''>1.608850 -0.2 0.027 0 0 -1.448655</pose>
     </model>  
     
 <!-- ________________girl________________-->
