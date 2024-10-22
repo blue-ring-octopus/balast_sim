@@ -147,7 +147,7 @@
   </joint>
 
   <link name="imu_link"/>
-<!-- 
+
   <joint name="scan_joint" type="fixed">
     <parent link="base_link"/>
     <child link="base_scan"/>
@@ -178,7 +178,7 @@
                izz="0.001" />
     </inertial>
   </link>
-  -->
+  
  <joint name="camera_joint" type="fixed">
 <!--	<origin xyz="0.073 -0.011 0.084" rpy="0 0.349 0"/> -->
 <origin xyz="0.01 0.032 0.16" rpy="0 0 0"/>
