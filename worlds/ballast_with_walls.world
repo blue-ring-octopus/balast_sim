@@ -1065,13 +1065,13 @@
       <pose frame=''>2.214 -5.088 -0.1 1.57  0 -1.57</pose>
     </model> 
     
-   <model name='drill3'>
+   <model name='tape_measure'>
 	<static>1</static>
 	<link name='link'>
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://tools/drill.dae</uri>
+              <uri>model://tools/tape_measure.dae</uri>
 	      <scale> 1 1 1 </scale> 
             </mesh>
           </geometry>
@@ -1079,15 +1079,15 @@
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>2.83 -4.01 -0.1 1.57  0 -1.57</pose>
+      <pose frame=''>0 0 0 0  0 0</pose>
     </model> 
-    <model name='drill4'>
+    <model name='level'>
 	<static>1</static>
 	<link name='link'>
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://tools/drill.dae</uri>
+              <uri>model://tools/level.dae</uri>
 	      <scale> 1 1 1 </scale> 
             </mesh>
           </geometry>
@@ -1095,7 +1095,7 @@
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>0.58 -2.49 -0.1 1.57  0 -1.57</pose>
+      <pose frame=''>0 0 0 0 0 0</pose>
     </model> 
     
 <model name='hammer'>
@@ -1105,14 +1105,30 @@
           <geometry>
             <mesh>
               <uri>model://tools/hammer.dae</uri>
-	      <scale> 0.2 0.2 0.2 </scale> 
+	      <scale> 1 1 1 </scale> 
             </mesh>
           </geometry>
         </visual>
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>1.608850 -0.2 0.027 0 0 -1.448655</pose>
+      <pose frame=''>0 0 0  0 0 0</pose>
+    </model>  
+<model name='sander'>
+	<static>1</static>
+	<link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://tools/sander.dae</uri>
+	      <scale> 1 1 1 </scale> 
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+      </link>
+      <pose frame=''>0 0 0  0 0 0</pose>
     </model>  
     
 <!-- ________________girl________________-->
