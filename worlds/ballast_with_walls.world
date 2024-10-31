@@ -1045,7 +1045,7 @@
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>4.35 -4.39 -0.1 1.57  0 -1.57</pose>
+      <pose frame=''>0 0 0 0 0  0</pose>
     </model>  
     
     <model name='drill2'>
@@ -1062,7 +1062,7 @@
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>2.214 -5.088 -0.1 1.57  0 -1.57</pose>
+      <pose frame=''>0 0 0 0 0 0 </pose>
     </model> 
     
    <model name='tape_measure'>
