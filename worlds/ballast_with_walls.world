@@ -1045,7 +1045,7 @@
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>0 0 0 0 0  0</pose>
+      <pose frame=''>0 1 0 0 0  0</pose>
     </model>  
     
     <model name='drill2'>
@@ -1062,7 +1062,7 @@
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>0 0 0 0 0 0 </pose>
+      <pose frame=''>0 1 0 0 0 0 </pose>
     </model> 
     
    <model name='tape_measure'>
@@ -1079,7 +1079,7 @@
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>0 0 0 0  0 0</pose>
+      <pose frame=''>0 1 0 0  0 0</pose>
     </model> 
     <model name='level'>
 	<static>1</static>
@@ -1095,7 +1095,7 @@
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>0 0 0 0 0 0</pose>
+      <pose frame=''>0 1 0 0 0 0</pose>
     </model> 
     
 <model name='hammer'>
@@ -1112,7 +1112,7 @@
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>0 0 0  0 0 0</pose>
+      <pose frame=''>0 1 0  0 0 0</pose>
     </model>  
 <model name='sander'>
 	<static>1</static>
@@ -1128,7 +1128,7 @@
         <self_collide>0</self_collide>
         <kinematic>0</kinematic>
       </link>
-      <pose frame=''>0 0 0  0 0 0</pose>
+      <pose frame=''>0 1 0  0 0 0</pose>
     </model>  
     
 <!-- ________________girl________________-->
